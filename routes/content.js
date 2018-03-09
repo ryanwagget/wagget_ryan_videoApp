@@ -21,4 +21,18 @@ router.get('/', (req, res) => {
   });
 });
 
+router.get('/', (req, res) => {
+  connect.query('SELECT * FROM tbl_shows', (err, showResult) => {
+    if(err) {
+      throw err; console.log(err);
+    } else {
+      console.log(showResult);
+
+      res.render('home', {
+        showsData : showResult //will give array that we can loop through
+      });
+    }
+  });
+});
+
 module.exports = router;
