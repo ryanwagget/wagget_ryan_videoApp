@@ -1,0 +1,142 @@
+body
+{
+  background: radial-gradient(#142249, #0d0f1e);
+}
+
+h1, h2, h3, p
+{
+  color: #fff;
+}
+
+h1
+{
+  padding-bottom: 0px;
+}
+
+h2
+{
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+a
+{
+  color: #898989;
+  text-decoration: none;
+  border: 1px solid #898989;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.content
+{
+  display: inline-block;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.title
+{
+  padding: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover
+{
+  color: #142249;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.featured
+{
+  background: url("../images/featured.png") center no-repeat;
+  height: 700px;
+  width: 100%;
+}
+
+.featured h1
+{
+  font-size: 80px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.featured p
+{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 190px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.featured a
+{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 240px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.roku-logo
+{
+  width: 100px;
+  float: left;
+  margin-top: 20px;
+}
+
+.flashback-logo
+{
+  width: 220px;
+  margin: 0 auto;
+}
+
+.controls
+{
+  float: right;
+}
+
+.controls img
+{
+  width: 30px;
+  margin-right: 20px;
+}
+
+.profile
+{
+  height: 45px;
+  margin-top: 20px;
+}
+
+.ham
+{
+  margin-bottom: 12px;
+}
+
+.settings
+{
+  margin-bottom: 10px;
+}
+
+header
+{
+  border-bottom: 2px solid #132147;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+footer
+{
+  border-top: 2px solid #132147;
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
