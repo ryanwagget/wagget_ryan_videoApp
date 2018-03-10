@@ -11,13 +11,13 @@
     <img class="movieCover" src="images/{{movies_cover}}">
     <p class="title">{{movies_title}}</p>
     <p>{{movies_likes}} Likes</p>
-    <a href="/details">View Page</a>
+    <a  href="/details/{{movies_id}}" id="{{movies_id}}">View Page</a>
   </div>
   {{/each }}
 </div>
 
 <div>
-  <h2>Selections By Previously </h2>
+  <h2>Previously Watched Tv Shows</h2>
   {{#each showsData}}
   <div class="content">
     <img src="images/{{shows_cover}}">
@@ -25,11 +25,11 @@
     <p>{{shows_likes}} Likes</p>
     <a href="/details">View Page</a>
   </div>
-  {{/each}}
+  {{/each }}
 </div>
 
 <div>
-  <h2>Previously Viewed</h2>
+  <h2>Popular Music</h2>
   <div class="content">
     <img src="">
     <p class="title">Content Title</p>

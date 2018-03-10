@@ -45,6 +45,7 @@ a
 .movieCover
 {
   width: 200px;
+  margin-top: 30px;
 }
 
 a:hover
@@ -59,6 +60,36 @@ a:hover
   background: url("../images/featured.png") center no-repeat;
   height: 700px;
   width: 100%;
+}
+
+.detailsBox
+{
+  text-align: center;
+}
+
+.detailsCover
+{
+  text-align: right;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.detailsInfo
+{
+  float: left;
+  font-size: 27px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.detailsInfo h3
+{
+  font-size: 30px;
+}
+
+.detailsInfo h2
+{
+  margin-left: 0;
 }
 
 .featured h1
