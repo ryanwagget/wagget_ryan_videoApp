@@ -19,9 +19,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/content'));
+app.use('/content', require('./routes/content'));
 app.use('/details', require('./routes/details'));
 app.use('/api', require('./routes/api'));
-app.use('/login', require('./routes/login'));
+//app.use('/login', require('./routes/login'));
 
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

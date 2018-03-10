@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
     } else {
       console.log(movieResult);
 
-      res.render('home', {
+      res.render('content', {
         moviesData : movieResult //will give array that we can loop through
       });
     }
@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
     } else {
       console.log(showResult);
 
-      res.render('home', {
+      res.render('content', {
         showsData : showResult //will give array that we can loop through
       });
     }

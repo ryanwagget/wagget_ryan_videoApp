@@ -1,51 +1,10 @@
-<div class="featured">
-  <h1>Can't Swim</h1>
-  <p>"The #1 90's Fish Documentary"</p>
-  <a href="/details">View Page</a>
-</div>
+<h1>Please Select An Account Type</h1>
 
-<div>
-  <h2>Movies Recommended For You</h2>
-  {{#each moviesData}}
-  <div class="content">
-    <img class="movieCover" src="images/{{movies_cover}}">
-    <p class="title">{{movies_title}}</p>
-    <p>{{movies_likes}} Likes</p>
-    <a  href="/details/{{movies_id}}" id="{{movies_id}}">View Page</a>
-  </div>
-  {{/each }}
-</div>
-
-<div>
-  <h2>Previously Watched Tv Shows</h2>
-  {{#each showsData}}
-  <div class="content">
-    <img src="images/{{shows_cover}}">
-    <p class="title">{{shows_title}}</p>
-    <p>{{shows_likes}} Likes</p>
-    <a href="/details">View Page</a>
-  </div>
-  {{/each }}
-</div>
-
-<div>
-  <h2>Popular Music</h2>
-  <div class="content">
-    <img src="">
-    <p class="title">Content Title</p>
-    <p>Likes</p>
-    <a href="/details">View Page</a>
-  </div>
-  <div class="content">
-    <img src="">
-    <p class="title">Content Title</p>
-    <p>Likes</p>
-    <a href="/details">View Page</a>
-  </div>
-  <div class="content">
-    <img src="">
-    <p class="title">Content Title</p>
-    <p>Likes</p>
-    <a href="/details">View Page</a>
-  </div>
-</div>
+<ul>
+  <li>
+    <a href="/content" class="parentsButton">Parents</a>
+  </li>
+  <li>
+    <a href"/content" class="kidsButton">Kids</a>
+  </li>
+</ul>
